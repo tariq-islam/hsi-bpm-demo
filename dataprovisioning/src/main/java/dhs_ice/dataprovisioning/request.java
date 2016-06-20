@@ -48,8 +48,11 @@ public class request implements java.io.Serializable
    @org.kie.api.definition.type.Label("Request Completed")
    private java.lang.Boolean completed;
 
-   @org.kie.api.definition.type.Label(value = "Virtual Database Details")
+   @org.kie.api.definition.type.Label("Virtual Database Details")
    private java.lang.String vdbDetails;
+
+   @org.kie.api.definition.type.Label(value = "Reason for Changes")
+   private java.lang.String reasonForChange;
 
    public request()
    {
@@ -235,6 +238,16 @@ public class request implements java.io.Serializable
       this.vdbDetails = vdbDetails;
    }
 
+   public java.lang.String getReasonForChange()
+   {
+      return this.reasonForChange;
+   }
+
+   public void setReasonForChange(java.lang.String reasonForChange)
+   {
+      this.reasonForChange = reasonForChange;
+   }
+
    public request(java.lang.String name, java.lang.String badgeNumber,
          java.lang.String projectName, java.util.Date dateActive,
          java.lang.String projectDescription, java.lang.Boolean icm,
@@ -243,7 +256,8 @@ public class request implements java.io.Serializable
          java.lang.Boolean seacats, java.lang.Boolean sen,
          java.lang.Boolean tls, java.lang.String filepath,
          java.lang.Byte document, java.lang.String rejectionReason,
-         java.lang.Boolean completed, java.lang.String vdbDetails)
+         java.lang.Boolean completed, java.lang.String vdbDetails,
+         java.lang.String reasonForChange)
    {
       this.name = name;
       this.badgeNumber = badgeNumber;
@@ -263,6 +277,7 @@ public class request implements java.io.Serializable
       this.rejectionReason = rejectionReason;
       this.completed = completed;
       this.vdbDetails = vdbDetails;
+      this.reasonForChange = reasonForChange;
    }
 
 }
