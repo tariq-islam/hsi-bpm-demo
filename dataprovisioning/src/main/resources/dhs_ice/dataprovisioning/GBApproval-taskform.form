@@ -3,5 +3,151 @@
 <property name="name" value="GBApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="1282292813">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;dequot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;enquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;esquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;frquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;jaquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;ptquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;quot;zhquot;,quot;&lt;h1&gt;New Project Request&lt;/h1&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="request_name" type="InputText" id="872370665">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;name (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/name"/>
+<property name="outputBinding" value="requestOut/name"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="request_badgeNumber" type="InputText" id="1523201477">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;badgeNumber (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/badgeNumber"/>
+<property name="outputBinding" value="requestOut/badgeNumber"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="request_projectName" type="InputText" id="1760759949">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectName (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/projectName"/>
+<property name="outputBinding" value="requestOut/projectName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="request_projectDescription" type="InputText" id="1076833912">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectDescription (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/projectDescription"/>
+<property name="outputBinding" value="requestOut/projectDescription"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="5" name="request_dateActive" type="InputDate" id="1556085037">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;dateActive (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/dateActive"/>
+<property name="outputBinding" value="requestOut/dateActive"/>
+<property name="fieldClass" value="java.util.Date"/>
+</field>
+<field position="6" name="request_icm" type="CheckBox" id="749820170">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;icm (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/icm"/>
+<property name="outputBinding" value="requestOut/icm"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="request_eid" type="CheckBox" id="956695">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;eid (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/eid"/>
+<property name="outputBinding" value="requestOut/eid"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="request_falcon" type="CheckBox" id="1979017621">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;falcon (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/falcon"/>
+<property name="outputBinding" value="requestOut/falcon"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="request_fincen" type="CheckBox" id="1572481360">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fincen (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/fincen"/>
+<property name="outputBinding" value="requestOut/fincen"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="10" name="request_fis" type="CheckBox" id="106413007">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fis (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/fis"/>
+<property name="outputBinding" value="requestOut/fis"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="11" name="request_seacats" type="CheckBox" id="86257759">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;seacats (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/seacats"/>
+<property name="outputBinding" value="requestOut/seacats"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="12" name="request_sen" type="CheckBox" id="634438652">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sen (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/sen"/>
+<property name="outputBinding" value="requestOut/sen"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="13" name="request_tls" type="CheckBox" id="117928376">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tls (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/tls"/>
+<property name="outputBinding" value="requestOut/tls"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="14" name="request_filepath" type="InputText" id="179368237">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;filepath (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/filepath"/>
+<property name="outputBinding" value="requestOut/filepath"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="15" name="request_document" type="InputTextByte" id="1260170021">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;document (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/document"/>
+<property name="outputBinding" value="requestOut/document"/>
+<property name="fieldClass" value="java.lang.Byte"/>
+</field>
+<field position="16" name="912495560" type="CheckBox" id="912495560">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;CheckBox16quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="17" name="1308642848" type="CheckBox" id="1308642848">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;CheckBox17quot;"/>
+<property name="readonly" value="false"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
 <dataHolder inputId="requestIn" name="#E9E371" type="dataModelerEntry" outId="requestOut" value="dhs_ice.dataprovisioning.request" id="request"/>
 </form>
