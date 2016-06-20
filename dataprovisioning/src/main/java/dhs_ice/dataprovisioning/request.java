@@ -9,30 +9,31 @@ public class request implements java.io.Serializable
 
    static final long serialVersionUID = 1L;
 
+   @org.kie.api.definition.type.Label("Name")
    private java.lang.String name;
-   @org.kie.api.definition.type.Label(value = "Badge Number")
+   @org.kie.api.definition.type.Label("Badge Number")
    private java.lang.String badgeNumber;
-   @org.kie.api.definition.type.Label(value = "Project Name")
+   @org.kie.api.definition.type.Label("Project Name")
    private java.lang.String projectName;
-   @org.kie.api.definition.type.Label(value = "Date Active")
+   @org.kie.api.definition.type.Label("Date Active")
    private java.util.Date dateActive;
-   @org.kie.api.definition.type.Label(value = "Project Description")
+   @org.kie.api.definition.type.Label("Project Description")
    private java.lang.String projectDescription;
-   @org.kie.api.definition.type.Label(value = "ICM")
+   @org.kie.api.definition.type.Label("ICM")
    private java.lang.Boolean icm;
-   @org.kie.api.definition.type.Label(value = "FALCON")
+   @org.kie.api.definition.type.Label("FALCON")
    private java.lang.Boolean falcon;
-   @org.kie.api.definition.type.Label(value = "EID")
+   @org.kie.api.definition.type.Label("EID")
    private java.lang.Boolean eid;
-   @org.kie.api.definition.type.Label(value = "FINCEN")
+   @org.kie.api.definition.type.Label("FINCEN")
    private java.lang.Boolean fincen;
-   @org.kie.api.definition.type.Label(value = "FIS")
+   @org.kie.api.definition.type.Label("FIS")
    private java.lang.Boolean fis;
-   @org.kie.api.definition.type.Label(value = "SEACATS")
+   @org.kie.api.definition.type.Label("SEACATS")
    private java.lang.Boolean seacats;
-   @org.kie.api.definition.type.Label(value = "SEN")
+   @org.kie.api.definition.type.Label("SEN")
    private java.lang.Boolean sen;
-   @org.kie.api.definition.type.Label(value = "TLS")
+   @org.kie.api.definition.type.Label("TLS")
    private java.lang.Boolean tls;
 
    public request()
@@ -174,8 +175,7 @@ public class request implements java.io.Serializable
          java.lang.String projectDescription, java.lang.Boolean icm,
          java.lang.Boolean falcon, java.lang.Boolean eid,
          java.lang.Boolean fincen, java.lang.Boolean fis,
-         java.lang.Boolean seacats, java.lang.Boolean sen,
-         java.lang.Boolean tls)
+         java.lang.Boolean seacats, java.lang.Boolean sen, java.lang.Boolean tls)
    {
       this.name = name;
       this.badgeNumber = badgeNumber;
