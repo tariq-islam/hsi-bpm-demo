@@ -36,11 +36,14 @@ public class request implements java.io.Serializable
    @org.kie.api.definition.type.Label("TLS")
    private java.lang.Boolean tls;
 
-   @org.kie.api.definition.type.Label(value = "Shared File Path")
+   @org.kie.api.definition.type.Label("Shared File Path")
    private java.lang.String filepath;
 
-   @org.kie.api.definition.type.Label(value = "Upload Document")
+   @org.kie.api.definition.type.Label("Upload Document")
    private java.lang.Byte document;
+
+   @org.kie.api.definition.type.Label(value = "Reason for Rejection")
+   private java.lang.String rejectionReason;
 
    public request()
    {
@@ -196,6 +199,16 @@ public class request implements java.io.Serializable
       this.document = document;
    }
 
+   public java.lang.String getRejectionReason()
+   {
+      return this.rejectionReason;
+   }
+
+   public void setRejectionReason(java.lang.String rejectionReason)
+   {
+      this.rejectionReason = rejectionReason;
+   }
+
    public request(java.lang.String name, java.lang.String badgeNumber,
          java.lang.String projectName, java.util.Date dateActive,
          java.lang.String projectDescription, java.lang.Boolean icm,
@@ -203,7 +216,7 @@ public class request implements java.io.Serializable
          java.lang.Boolean fincen, java.lang.Boolean fis,
          java.lang.Boolean seacats, java.lang.Boolean sen,
          java.lang.Boolean tls, java.lang.String filepath,
-         java.lang.Byte document)
+         java.lang.Byte document, java.lang.String rejectionReason)
    {
       this.name = name;
       this.badgeNumber = badgeNumber;
@@ -220,6 +233,7 @@ public class request implements java.io.Serializable
       this.tls = tls;
       this.filepath = filepath;
       this.document = document;
+      this.rejectionReason = rejectionReason;
    }
 
 }
