@@ -3,4 +3,5 @@
 <property name="name" value="GBApproval-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<dataHolder inputId="requestIn" name="#E9E371" type="dataModelerEntry" outId="requestOut" value="dhs_ice.dataprovisioning.request" id="request"/>
 </form>
