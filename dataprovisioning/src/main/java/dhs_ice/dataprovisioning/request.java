@@ -36,6 +36,12 @@ public class request implements java.io.Serializable
    @org.kie.api.definition.type.Label("TLS")
    private java.lang.Boolean tls;
 
+   @org.kie.api.definition.type.Label(value = "Shared File Path")
+   private java.lang.String filepath;
+
+   @org.kie.api.definition.type.Label(value = "Upload Document")
+   private java.lang.Byte document;
+
    public request()
    {
    }
@@ -170,12 +176,34 @@ public class request implements java.io.Serializable
       this.tls = tls;
    }
 
+   public java.lang.String getFilepath()
+   {
+      return this.filepath;
+   }
+
+   public void setFilepath(java.lang.String filepath)
+   {
+      this.filepath = filepath;
+   }
+
+   public java.lang.Byte getDocument()
+   {
+      return this.document;
+   }
+
+   public void setDocument(java.lang.Byte document)
+   {
+      this.document = document;
+   }
+
    public request(java.lang.String name, java.lang.String badgeNumber,
          java.lang.String projectName, java.util.Date dateActive,
          java.lang.String projectDescription, java.lang.Boolean icm,
          java.lang.Boolean falcon, java.lang.Boolean eid,
          java.lang.Boolean fincen, java.lang.Boolean fis,
-         java.lang.Boolean seacats, java.lang.Boolean sen, java.lang.Boolean tls)
+         java.lang.Boolean seacats, java.lang.Boolean sen,
+         java.lang.Boolean tls, java.lang.String filepath,
+         java.lang.Byte document)
    {
       this.name = name;
       this.badgeNumber = badgeNumber;
@@ -190,6 +218,8 @@ public class request implements java.io.Serializable
       this.seacats = seacats;
       this.sen = sen;
       this.tls = tls;
+      this.filepath = filepath;
+      this.document = document;
    }
 
 }
