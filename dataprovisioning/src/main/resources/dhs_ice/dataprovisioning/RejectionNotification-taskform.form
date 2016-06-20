@@ -3,4 +3,96 @@
 <property name="name" value="RejectionNotification-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="841319724">
+<property name="fieldRequired" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;dequot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;enquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;esquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;frquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;jaquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;ptquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;quot;zhquot;,quot;&lt;h1&gt;Your Request has been Denied&lt;/h1&gt;
+quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
+<field position="1" name="request_projectName" type="InputText" id="2090863651">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectName (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/projectName"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="request_projectDescription" type="InputText" id="380379493">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;projectDescription (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/projectDescription"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="3" name="request_rejectionReason" type="InputText" id="180922325">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;rejectionReason (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/rejectionReason"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="4" name="request_eid" type="CheckBox" id="1346315809">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;eid (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/eid"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="5" name="request_falcon" type="CheckBox" id="2137104431">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;falcon (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/falcon"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="6" name="request_fincen" type="CheckBox" id="506775052">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fincen (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/fincen"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="7" name="request_fis" type="CheckBox" id="1228446323">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;fis (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/fis"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="8" name="request_icm" type="CheckBox" id="703170224">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;icm (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/icm"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="9" name="request_seacats" type="CheckBox" id="798242690">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;seacats (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/seacats"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="10" name="request_sen" type="CheckBox" id="1857474082">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;sen (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/sen"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<field position="11" name="request_tls" type="CheckBox" id="741698163">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;tls (request)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="requestIn/tls"/>
+<property name="fieldClass" value="java.lang.Boolean"/>
+</field>
+<dataHolder inputId="requestIn" name="#E9E371" type="dataModelerEntry" outId="" value="dhs_ice.dataprovisioning.request" id="request"/>
 </form>
