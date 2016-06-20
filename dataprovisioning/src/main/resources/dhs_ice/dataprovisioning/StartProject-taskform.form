@@ -3,6 +3,13 @@
 <property name="name" value="StartProject-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="0" name=":decorator_0" type="HTMLLabel" id="975192058">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="readonly" value="false"/>
+<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;dequot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;enquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;esquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;frquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;jaquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;ptquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;quot;zhquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt; quot;"/>
+<property name="fieldClass" value="HTMLlabel"/>
+</field>
 <field position="1" name="request_vdbDetails" type="InputTextArea" id="1074748948">
 <property name="fieldRequired" value="false"/>
 <property name="groupWithPrevious" value="false"/>
@@ -91,21 +98,6 @@
 <property name="readonly" value="false"/>
 <property name="inputBinding" value="requestIn/projectName"/>
 <property name="fieldClass" value="java.lang.String"/>
-</field>
-<field position="0" name=":decorator_0" type="HTMLLabel" id="975192058">
-<property name="fieldRequired" value="false"/>
-<property name="groupWithPrevious" value="false"/>
-<property name="readonly" value="false"/>
-<property name="htmlContent" value="quot;caquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;dequot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;enquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;esquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;frquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;jaquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;ptquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;quot;zhquot;,quot;&lt;h2&gt;Your Virtual Datasource is ready for use&lt;/h2&gt;
-quot;"/>
-<property name="fieldClass" value="HTMLlabel"/>
 </field>
 <dataHolder inputId="requestIn" name="#E9E371" type="dataModelerEntry" outId="" value="dhs_ice.dataprovisioning.request" id="request"/>
 </form>
